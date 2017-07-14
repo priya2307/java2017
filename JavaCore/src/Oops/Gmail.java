@@ -1,5 +1,5 @@
 package Oops;
-
+//import values from this program and execute in google.java/variables 
 public class Gmail {
 
 	String Userid;
