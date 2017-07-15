@@ -1,6 +1,6 @@
 package Oops;
 
-class Mobile{
+class Cell{
 
 			    String company;  
 			    String model;  
@@ -23,13 +23,13 @@ class Mobile{
 			{
 				public static void main(String ar[])
 				{
-					Mobile m1= new Mobile();
-					Mobile m2= new Mobile();
-					m1.Details();
-					m2.Details();
+					Cell c1= new Cell();
+					Cell c2= new Cell();
+					c1.Details();
+					c2.Details();
 					
-					m1.PrintDetails();
-					m2.PrintDetails();
+					c1.PrintDetails();
+					c2.PrintDetails();
 			
 				}
 			}
