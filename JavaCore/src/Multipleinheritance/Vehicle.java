@@ -34,7 +34,7 @@ class Bus extends Car
      
          void setOutput()
          {
-	       time=distance/speed;
+	         time=distance/speed;
          }
          void getOutput()
          {
