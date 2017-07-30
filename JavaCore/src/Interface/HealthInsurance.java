@@ -4,11 +4,11 @@ abstract class Insurance {
 	
 	String name;
 	int id;
-	public abstract void getDetails(); 	
+	abstract void getDetails(); 	
 }
 class CarInsurance extends Insurance {
 
-	public void getDetails()
+	void getDetails()
 	{
 	 name="CIGNA";
 	 id=101;
