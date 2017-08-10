@@ -1,9 +1,8 @@
 package linkedList;
-
-//add all
+//size,clear,remove
 import java.util.LinkedList;
 
-public class LinkedListEx2 {
+public class LinkedListEx3 {
 	public static void main(String[] args) {
 
 		   LinkedList<String> list = new LinkedList<String>();
@@ -24,6 +23,15 @@ public class LinkedListEx2 {
 		   list.addAll(2, List2);
 
 		   System.out.println("LinkedList:" + list);
-}
+		   list.size();
+		   System.out.println("Size of list="+list);
+		   list.clear();
+		   list.size();
+		   System.out.println("Size of list after clear="+list);
+		   list.add("h");
+		   System.out.println();
+		   List2.remove("g");
+		   System.out.println("After removing G="+List2);
+		   }
 }
 		

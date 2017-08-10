@@ -20,6 +20,6 @@ public class ArrayListEx8 {
  } 
 	
  int y=al.get(3);
- System.out.println("Retrieved element is = " + y);	   
+ System.out.println("Get element is = " + y);	   
  }
 }   

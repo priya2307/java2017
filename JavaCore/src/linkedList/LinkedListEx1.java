@@ -9,12 +9,12 @@ public class LinkedListEx1 {
 
 public static void main(String[] args) {
 
- LinkedList list = new LinkedList();
+ LinkedList<String> list = new LinkedList<String>();
 
  list.add("A");
- list.add(1);
+ list.add("1");
  list.add("C");
- list.add(2);
+ list.add("2");
 
  System.out.println("LinkedList:" + list);
 
